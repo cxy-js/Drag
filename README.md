@@ -5,6 +5,7 @@
 
 el 为节点class,或id
 ## 实例
+```html
     <!DOCTYPE html>
     <html>
         <head>
@@ -26,4 +27,5 @@ el 为节点class,或id
             new Drag('#div')
         </script>
      </body>
-    </html>
+    </html>
+```
