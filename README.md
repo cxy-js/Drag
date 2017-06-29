@@ -19,6 +19,7 @@
                 position:absolute;
                 width:100px;
                 height:100px;
+                cursor:move;
                 background:#ff0000
             }
         </style>
