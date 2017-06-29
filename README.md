@@ -3,7 +3,8 @@
 ## 简单使用
     new Drag('el')
 
-el 为节点class,或id
++ el 为元素lass,或id
++ 此元素样式需position
 ## 实例
 ```html
     <!DOCTYPE html>
