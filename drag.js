@@ -10,7 +10,6 @@
 	Drag.prototype.event=function(){
 		var that=this
 		this.el.onmousedown=function(e){
-			
 			var e=e||window.event;
 			var l=e.clientX-this.offsetLeft;
 			var t=e.clientY-this.offsetTop;
@@ -51,7 +50,7 @@
 				this.onmouseup=null
 			}
 			//阻止冒泡
-			//addEventListener,用stopPropageation()
+			//addEventListener用stopPropageation()
 			return false
 		}
 	}
