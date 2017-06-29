@@ -1,8 +1,9 @@
 # Drag
 简单的封装原生js拖拽
 ## 简单使用
+```javascript
     new Drag('el')
-
+```
 + el 为元素class,或id
 + 此元素样式需position
 ## 实例
