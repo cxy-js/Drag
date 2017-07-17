@@ -28,7 +28,9 @@
         <div id="div"></div>
         <script>
             new Drag('#div')
-        </script>
+            //或者
+            //Drag("#div")
+        </script>
      </body>
     </html>
 ```
