@@ -1,5 +1,4 @@
 ;(function(window,document){
-
 	var Drag=function(el){
 		if(!(this instanceof Drag))return new Drag(el);
 		this.el=document.querySelector(el)
@@ -50,9 +49,7 @@
 				this.onmousemove=null;
 				this.onmouseup=null
 			}
-			//阻止冒泡
-			//addEventListener用stopPropageation()
-			return false
+			
 		}
 	}
 	window.Drag=Drag
